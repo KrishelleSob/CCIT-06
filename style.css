@@ -54,10 +54,15 @@ section {
 #services h2 {
     font-size: 50px;
     font-weight: 900;
-    color: rgb(30, 42, 30);
+    color: rgb(230, 255, 230);
 
 }
 
 #services {
+<<<<<<< HEAD
     background-color: rgb(30, 55, 37);
 }
+=======
+    background-color: rgb(31, 121, 118);
+}
+>>>>>>> e3fdbfb26b31df01c21eca66d1596cce0a1bfefc
