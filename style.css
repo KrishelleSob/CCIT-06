@@ -4,6 +4,7 @@
     background: url('Firefly.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .btn {
     padding: 15px 30px;
@@ -31,6 +32,7 @@ section {
 
 #about {
     background-color: rgb(212, 255, 224);
+    background-image: -moz-linear-gradient(to right, rgba(212, 255, 224), rgb(22, 48, 29));
 }
 
 #about h2 {
@@ -51,6 +53,23 @@ section {
     width: 40%;
 }
 
+.card {
+    transition: background-color 0.3s, color o.3s;
+    border: 5px solid var(--border); /* Border style */
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border-radius: 30px;
+}
+
+.card:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+.card:hover .card-title,
+.card:hover .card-text,
+.card:hover .btn {
+    color: #fff;
+}
+
 #services h2 {
     font-size: 50px;
     font-weight: 900;
@@ -59,10 +78,38 @@ section {
 }
 
 #services {
-<<<<<<< HEAD
-    background-color: rgb(30, 55, 37);
+    background-color: rgb(43, 132, 129);
+    border-color: rgb(6, 74, 71);
 }
-=======
-    background-color: rgb(31, 121, 118);
+
+#cta {
+
+    height: 90vh;
+    background: url('DanHeng.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
->>>>>>> e3fdbfb26b31df01c21eca66d1596cce0a1bfefc
+
+.testimonials {
+    padding: 30px;
+    border: 2px solid rgb(37, 131, 87);
+    border-radius: 30px;
+}
+
+.testimonials img {
+    width: 65px;
+    border-radius: 100px;
+
+}
+
+.testimonials a {
+    color: rgb(130, 13, 69);
+}
+
+#reviews h2 {
+    font-size: 55px;
+    font-weight: 900;
+    color: rgb(30, 42, 30);
+    -webkit-text-stroke-width: 1px;
+}
