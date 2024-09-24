@@ -79,6 +79,7 @@ section {
 
 #services {
     background-color: rgb(43, 132, 129);
+<<<<<<< HEAD
     border-color: rgb(6, 74, 71);
 }
 
@@ -113,3 +114,6 @@ section {
     color: rgb(30, 42, 30);
     -webkit-text-stroke-width: 1px;
 }
+=======
+}
+>>>>>>> 6e16cd430a19c9208ff6881429cafcd3427b9414
